@@ -8,7 +8,7 @@ with open('requirements.txt', 'r') as f:
 requirements = [req for req in reqs.split('\n') 
                     if req != '' and not req.startswith('#')]
 
-long_description_content_type = 'ext/markdown'
+long_description_content_type = 'text/markdown'
 
 name = 'bootcamp_utils'
 version = '0.0.1'
