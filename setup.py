@@ -14,6 +14,7 @@ name = 'bootcamp_utils'
 version = '0.0.1'
 author = 'Justin Bois'
 author_email = 'bois@caltech.edu'
+url = 'https://github.com/justinbois/bootcamp_utils'
 install_requires = requirements
 description = ('Utilities for use in the Introduction to Programming in the' 
                 + ' Biological Sciences Bootcamp.')
@@ -23,6 +24,7 @@ setuptools.setup(
     version=version,
     author=author,
     author_email=author_email,
+    url=url,
     install_requires=requirements,
     description=description,
     long_description=long_description,
