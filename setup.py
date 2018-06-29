@@ -15,6 +15,8 @@ version = '0.0.1'
 author = 'Justin Bois'
 author_email = 'bois@caltech.edu'
 install_requires = requirements
+description = ('Utilities for use in the Introduction to Programming in the' 
+                + ' Biological Sciences Bootcamp.')
 
 setuptools.setup(
     name=name,
