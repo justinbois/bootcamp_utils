@@ -11,7 +11,7 @@ requirements = [req for req in reqs.split('\n')
 long_description_content_type = 'text/markdown'
 
 name = 'bootcamp_utils'
-version = '0.0.2'
+version = '0.0.3'
 author = 'Justin Bois'
 author_email = 'bois@caltech.edu'
 url = 'https://github.com/justinbois/bootcamp_utils'

@@ -93,7 +93,7 @@ def ecdf_vals(data, formal=False, x_min=None, x_max=None):
     Parameters
     ----------
     data : ndarray
-        One dimensional Numpay array with data.
+        One dimensional Numpy array with data.
     formal : bool, default False
         If True, generate x and y values for formal ECDF (staircase). If
         False, generate x and y values for ECDF as dots.
