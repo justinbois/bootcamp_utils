@@ -5,18 +5,18 @@ with open('README.md', 'r') as f:
 
 with open('requirements.txt', 'r') as f:
     reqs = f.read()
-requirements = [req for req in reqs.split('\n') 
+requirements = [req for req in reqs.split('\n')
                     if req != '' and not req.startswith('#')]
 
 long_description_content_type = 'text/markdown'
 
 name = 'bootcamp_utils'
-version = '0.0.3'
+version = '0.0.4'
 author = 'Justin Bois'
 author_email = 'bois@caltech.edu'
 url = 'https://github.com/justinbois/bootcamp_utils'
 install_requires = requirements
-description = ('Utilities for use in the Introduction to Programming in the' 
+description = ('Utilities for use in the Introduction to Programming in the'
                 + ' Biological Sciences Bootcamp.')
 
 setuptools.setup(
