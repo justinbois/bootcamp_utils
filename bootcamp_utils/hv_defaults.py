@@ -30,7 +30,7 @@ def no_ygrid_hook(plot, element):
 # ]
 
 default_categorical_cmap = colorcet.b_glasbey_category10
-default_sequential_cmap = bokeh.palettes.Viridis256
+default_sequential_cmap = list(bokeh.palettes.Viridis256)
 default_diverging_cmap = colorcet.b_diverging_bwr_20_95_c54
 
 
