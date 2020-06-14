@@ -184,7 +184,7 @@ def set_defaults():
             show_grid=True,
             show_legend=True,
             show_title=True,
-            size=5,
+            size=4,
             toolbar="above",
             width=450,
         )
@@ -202,7 +202,7 @@ def set_defaults():
             muted_line_alpha=0.1,
             padding=0.05,
             show_grid=True,
-            size=5,
+            size=4,
             toolbar="above",
             width=450,
         )
