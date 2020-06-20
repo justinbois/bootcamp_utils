@@ -183,7 +183,6 @@ def set_defaults():
             padding=0.05,
             show_grid=True,
             show_legend=True,
-            show_title=True,
             size=4,
             toolbar="above",
             width=450,
